@@ -1,0 +1,46 @@
+.productContainer {
+  justify-content: space-between;
+  display: flex;
+  margin: 25px 0;
+}
+
+.productInfoContainer {
+  width: 75%;
+}
+
+.voteContainer {
+  display: flex;
+  align-items: center;
+}
+
+.productImage {
+  max-width: 20%;
+  height: auto;
+}
+
+.upVoteBtn {
+  background: url('../../assets/arrow.png');
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+}
+
+.productUrl {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.submittedBy {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.submitterAvatar {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
